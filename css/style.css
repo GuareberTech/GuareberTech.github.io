@@ -782,7 +782,28 @@
 			height: 100%;
 			background: rgba(64,64,64,0.125);
 		}
+		
+/*********************************************************************************/
+/* Circular imagenes del equipo                                                                        */
+/*********************************************************************************/		
+.circular img {
+	
+	border: 2px solid grey;
+	margin: 0;
+	padding: 0;
+	border-radius: 800px;
+	overflow: hidden;
+	width: 35%;
+	height: 25%;
+}
 
+.circular img:hover{
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5)
+}
 /*********************************************************************************/
 /* Logo                                                                          */
 /*********************************************************************************/
@@ -885,8 +906,18 @@
 		position: relative;
 		background: #fff;
 	}
-	
+	#main h2{
+		display: block;
+		font-weight: 300;
+		font-size: 3.0em;
+		padding: 1em;
+	}
 	.homepage #content
+	{
+		text-align: center;
+	}
+	
+	.homepage #team
 	{
 		text-align: center;
 	}
@@ -946,6 +977,40 @@
 		color:  rgba(255,255,255,.2);
 	}
 	
+/*********************************************************************************/
+/* Team                                                                     */
+/*********************************************************************************/
+		
+	#team
+	{
+		position: relative;
+		background: #f2f2f2;
+		text-align: center;
+	}
+	
+	#team h2
+	{
+		display: block;
+		font-weight: 300;
+		font-size: 3.0em;
+		padding: 1em;
+	}
+  #team h3
+	{
+		display: block;
+		font-size: 1.0em;
+		padding: 1em;
+	}
+
+	#team .pennant
+	{
+		font-size: 4em;
+	}
+	
+	#team .button
+	{
+		margin-top: 1.5em;
+	}
 /*********************************************************************************/
 /* Featured                                                                      */
 /*********************************************************************************/
