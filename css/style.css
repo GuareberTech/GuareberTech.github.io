@@ -987,7 +987,12 @@
 		background: #f2f2f2;
 		text-align: center;
 	}
-	
+
+	#team p {
+		
+	text-align: justify;
+	margin: 20px;
+	}
 	#team h2
 	{
 		display: block;
